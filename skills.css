@@ -12,11 +12,11 @@
 }
 
 .navbar-brand:hover {
-    color: pink;
+    color: black;
 }
 
 .nav-link:hover {
-    color: rgb(255, 111, 135);
+    color: black;
 }
 .carouselwrap{
     height: 600px;
