@@ -1,5 +1,11 @@
+body{
+    background-image: url('imgbackground.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .navbar {
-    background: linear-gradient(to right, rgb(255, 111, 135), pink);
+    background: linear-gradient(to right, rgb(196, 127, 70),  rgb(255, 186, 144));
 }
 
 .nav-link {
@@ -35,17 +41,17 @@
 }
 
 .crdtext {
-    background-color: pink;
+    background-color: rgb(255, 186, 144);
 }
 
 .card-title {
-    color: white;
-    text-shadow: 2px 2px rgb(255, 111, 135);
+    color: rgb(196, 127, 70);
+    text-shadow: 2px 2px white;
 }
 
 .card-title:hover {
-    color: rgb(255, 111, 135);
-    text-shadow: 2px 2px white;
+    color: white;
+    text-shadow: 2px 2px rgb(196, 127, 70) ;
 }
 
 .photo1 {
@@ -63,16 +69,12 @@
 }
 
 .wrap2photo {
-    background: linear-gradient(to right, rgb(255, 111, 135), pink);
+    background: linear-gradient(to right,  rgb(196, 127, 70),  rgb(255, 186, 144));
     margin-top: 50px;
     padding: 50px;
     display: flex;
     justify-content: center;
     gap: 25px;
-}
-.umbrella{
-    margin-top: -10%;
-    margin-bottom: -20%;
 }
 
 @media (max-width : 469px) {
@@ -91,9 +93,23 @@
         height: 250px;
         width: 250px;
     }
+    .wrapcard{
+        width: 250px;
+    }
+    .mainwrap{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .card{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
-@media (min-width : 469px) and (max-width : 1200px) {
+@media (min-width : 469px) and (max-width : 1200px){
     .wrap2photo {
         display: flex;
         flex-direction: column;

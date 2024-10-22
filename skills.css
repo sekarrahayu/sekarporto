@@ -1,6 +1,6 @@
 
 .navbar {
-    background: linear-gradient(to right, rgb(255, 111, 135), pink);
+    background: linear-gradient(to right, rgb(196, 127, 70),  rgb(255, 186, 144));
 }
 
 .nav-link {
@@ -45,10 +45,22 @@
 .proses1{
     border: 2px solid black;
 }
+.textskill{
+    margin-left: 10px;
+    margin-top: 5%;
+}
+
+@media (max-width : 469px) {
+    .textskill{
+        margin-left: 10px;
+        margin-top: 10%;
+    }
+}
+
 
 @keyframes gerak {
     0%   {width: 0%;}
-    100% {width: 50%;}
+    100% {width: 60%;}
   }
 
 .animation1{

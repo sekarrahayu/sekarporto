@@ -1,12 +1,12 @@
 body {
-    background-image: url('wallpaper.jpeg');
+    background-image: url('bgexperience.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
 }
-
 .navbar {
-    background: linear-gradient(to right, rgb(255, 111, 135), pink);
+    background: linear-gradient(to right, rgb(196, 127, 70),  rgb(255, 186, 144));
 }
 
 .nav-link {
@@ -37,14 +37,15 @@ body {
 }
 
 .h2.textex{
-    text-shadow: 0 0 6px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073;
-    color: rgba(195, 26, 26, 0.243);
+    text-shadow: 0 0 6px #fff, 0 0 20px #fff, 0 0 30px rgb(196, 127, 70), 0 0 40px rgb(196, 127, 70);
+    color: rgb(196, 127, 70);
 }
 
 .h1{
     color: white;
+    text-shadow: 2px 2px 5px rgb(196, 127, 70);
 }
 
 .bottomtext{
-    color: black;
+    color: rgb(196, 127, 70);
 }
