@@ -40,7 +40,8 @@
 }
 .wrap1{
     margin-top: 15px;
-    margin-left: 25px;
+    padding: 25px;
+
 }
 .proses1{
     border: 2px solid black;
@@ -48,6 +49,9 @@
 .textskill{
     margin-left: 10px;
     margin-top: 5%;
+}
+.wrapsecond{
+    margin-top: -80px;
 }
 
 @media (max-width : 469px) {
